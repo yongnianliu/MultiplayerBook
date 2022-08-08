@@ -10,11 +10,15 @@
 #else
 	#include <sys/socket.h>
 	#include <netinet/in.h>
+    #include <arpa/inet.h>
 	#include <sys/types.h>
 	#include <netdb.h>
 	#include <errno.h>
 	#include <fcntl.h>
 	#include <unistd.h>
+    #include <string.h>
+    #include <stdarg.h>
+
 	//typedef void* receiveBufer_t;
 	typedef int SOCKET;
 	const int NO_ERROR = 0;

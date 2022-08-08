@@ -15,7 +15,7 @@ string StringUtils::GetCommandLineArg( int inIndex )
 	{
 		return string( __argv[ inIndex ] );
 	}
-	
+
 	return string();
 }
 
